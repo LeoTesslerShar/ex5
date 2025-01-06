@@ -33,7 +33,7 @@ void printMainMenu();
 void addPlaylist(Playlist **playlists, int index);
 void printSinglePlaylistMenu();
 void showPlaylist(Playlist *playlists, int index);
-void addSong(Playlist **playlists, int pIndex, int sIndex);
+void addSong(Playlist **playlist, int pIndex, int sIndex);
 void playAllSongs(Playlist *playlist, int pIndex);
 void sortYear(Song **songs, int sNum);
 void sortStreamsAscend(Song **songs, int sNum);
